@@ -1,12 +1,12 @@
 modLoader="javafml" #mandatory
 loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-issueTrackerURL="https://github.com/RealDarkGamer/TestMod-MC/issues" #optional
+issueTrackerURL="https://github.com/RealDarkGamer/TestModMC/issues" #optional
 [[mods]] #mandatory
 modId="tdgtest" #mandatory
 version="1.15.2-V0.01" #mandatory
 displayName="Test Mod" #mandatory
 updateJSONURL="http://myurl.me/" #optional
-displayURL="https://github.com/RealDarkGamer/TestMod-MC" #optional
+displayURL="https://github.com/RealDarkGamer/TestModMC" #optional
 logoFile="" #optional
 credits="Coder: TheDarkGamer1YT" #optional
 authors="TheDarkGamer1YT" #optional
