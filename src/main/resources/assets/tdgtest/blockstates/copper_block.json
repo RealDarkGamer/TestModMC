@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tdgtest:block/copper_block"
+    }
+  }
+}

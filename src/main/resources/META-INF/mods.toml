@@ -1,0 +1,31 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+issueTrackerURL="https://github.com/RealDarkGamer/TestMod-MC/issues" #optional
+[[mods]] #mandatory
+modId="tdgtest" #mandatory
+version="1.15.2-V0.01" #mandatory
+displayName="Test Mod" #mandatory
+updateJSONURL="http://myurl.me/" #optional
+displayURL="https://github.com/RealDarkGamer/TestMod-MC" #optional
+logoFile="" #optional
+credits="Coder: TheDarkGamer1YT" #optional
+authors="TheDarkGamer1YT" #optional
+description='''
+Test Mod for 1.15.2/1.16.4
+This mod contains all of the testing items that TheDarkGamer has added.
+GitHub: https://github.com/RealDarkGamer/TestMod-MC
+Youtube: https://www.youtube.com/channel/UCgLCyUdPl9wv7le1gJ6jPgQ
+Twitter: https://twitter.com/TheDarkGamer1YT
+'''
+[[dependencies.tdgtest]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tdgtest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
