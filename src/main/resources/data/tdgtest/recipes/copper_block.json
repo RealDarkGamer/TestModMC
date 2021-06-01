@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xdx",
+    "dxd",
+    "xdx"
+  ],
+  "key": {
+    "x": {
+      "item": "tdgtest:copper_ingot"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "tdgtest:copper_block",
+    "count": 1
+  }
+}
